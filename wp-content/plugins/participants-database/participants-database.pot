@@ -1,0 +1,2671 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Participants Database\n"
+"POT-Creation-Date: 2018-04-26 09:19-1000\n"
+"PO-Revision-Date: 2016-08-13 08:51-1000\n"
+"Last-Translator: Roland Barker <webdesign@xnau.com>\n"
+"Language-Team: Roland Barker <webdesign@xnau.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: participants-database.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/PDb_Aux_Plugin.class.php:387
+msgid "Support"
+msgstr ""
+
+#: classes/PDb_Aux_Plugin.class.php:398
+#, php-format
+msgctxt "displays the name and version of the plugin"
+msgid "%s version %s"
+msgstr ""
+
+#: classes/PDb_Aux_Plugin.class.php:399
+#, php-format
+msgctxt "displays the plugin author name"
+msgid "Authored by %s"
+msgstr ""
+
+#: classes/PDb_Aux_Plugin.class.php:417 classes/PDb_Settings.class.php:32
+msgid "General Settings"
+msgstr ""
+
+#: classes/PDb_CSV_Import.class.php:74
+msgid "New columns imported from the CSV file."
+msgstr ""
+
+#: classes/PDb_Debug.class.php:52
+msgid "Debugging Log"
+msgstr ""
+
+#: classes/PDb_Debug.class.php:196
+msgid "Clear"
+msgstr ""
+
+#: classes/PDb_Debug.class.php:197
+msgid "Refresh"
+msgstr ""
+
+#: classes/PDb_Debug.class.php:201
+#, php-format
+msgid "Log file: %s"
+msgstr ""
+
+#: classes/PDb_Debug.class.php:238
+#, php-format
+msgid ""
+"Unable to open the debugging log file: %s Check the \"File Upload Location\" "
+"setting."
+msgstr ""
+
+#: classes/PDb_Debug.class.php:240
+msgid "Debugging"
+msgstr ""
+
+#: classes/PDb_Debug.class.php:384
+#, php-format
+msgid "Log file initiated at: %s"
+msgstr ""
+
+#: classes/PDb_File_Uploads.class.php:61
+msgid ""
+"There is something wrong with the file you tried to upload. Try another."
+msgstr ""
+
+#: classes/PDb_File_Uploads.class.php:77 classes/PDb_File_Uploads.class.php:112
+#, php-format
+msgid "For \"%s\", you may only upload image files like JPEGs, GIFs or PNGs."
+msgstr ""
+
+#: classes/PDb_File_Uploads.class.php:79
+#, php-format
+msgid "The file selected for \"%s\" must be one of these types: %s. "
+msgstr ""
+
+#: classes/PDb_File_Uploads.class.php:119
+#, php-format
+msgid ""
+"The file you tried to upload is too large. The file must be smaller than %sK."
+msgstr ""
+
+#: classes/PDb_File_Uploads.class.php:126
+msgid "The file could not be saved."
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:586 classes/PDb_List_Admin.class.php:910
+#: classes/PDb_List_Admin.class.php:1424
+#: classes/PDb_Manage_Fields.class.php:340
+#: classes/xnau_FormElement.class.php:1075
+msgid "delete"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:902
+msgid "Text-line"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:903
+msgid "Text Area"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:904
+msgid "Rich Text"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:905
+msgid "Checkbox"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:906
+msgid "Radio Buttons"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:907
+msgid "Dropdown List"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:908
+msgid "Date Field"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:909
+msgid "Numeric"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:910
+msgid "Decimal"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:911
+msgid "Currency"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:912
+msgid "Dropdown/Other"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:913
+msgid "Multiselect Checkbox"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:914
+msgid "Multiselect Dropdown"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:915
+msgid "Radio Buttons/Other"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:916
+msgid "Multiselect/Other"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:917
+msgid "Link Field"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:918
+msgid "Image Upload Field"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:919
+msgid "File Upload Field"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:920
+msgid "Hidden Field"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:921
+msgid "Password Field"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:922
+msgid "CAPTCHA"
+msgstr ""
+
+#: classes/PDb_FormElement.class.php:923
+msgid "Placeholder"
+msgstr ""
+
+#: classes/PDb_FormValidation.class.php:53
+msgid "Not Required"
+msgstr ""
+
+#: classes/PDb_FormValidation.class.php:54
+msgid "Required"
+msgstr ""
+
+#: classes/PDb_FormValidation.class.php:55
+msgid "Email"
+msgstr ""
+
+#: classes/PDb_FormValidation.class.php:56
+msgid "regex/match"
+msgstr ""
+
+#: classes/PDb_Init.class.php:988
+msgid "Participant Info"
+msgstr ""
+
+#: classes/PDb_Init.class.php:989
+msgid "Personal Info"
+msgstr ""
+
+#: classes/PDb_Init.class.php:990
+msgid "Administrative Info"
+msgstr ""
+
+#: classes/PDb_Init.class.php:991
+msgid "Record Info"
+msgstr ""
+
+#: classes/PDb_List.class.php:490 templates/pdb-list-bootstrap.php:35
+#: templates/pdb-list-detailed.php:31 templates/pdb-list-flexbox.php:87
+#: templates/pdb-list-responsive.php:17 templates/pdb-search-default.php:22
+msgid "Please select a column to search in."
+msgstr ""
+
+#: classes/PDb_List.class.php:491 templates/pdb-list-bootstrap.php:36
+#: templates/pdb-list-detailed.php:32 templates/pdb-list-flexbox.php:88
+#: templates/pdb-list-responsive.php:18 templates/pdb-search-default.php:23
+msgid "Please type in something to search for."
+msgstr ""
+
+#: classes/PDb_List.class.php:499 templates/pdb-list-bootstrap.php:46
+#: templates/pdb-list-detailed.php:47 templates/pdb-list-flexbox.php:96
+#: templates/pdb-list-responsive.php:26 templates/pdb-search-default.php:35
+msgid "Search"
+msgstr ""
+
+#: classes/PDb_List.class.php:513 classes/PDb_List_Admin.class.php:852
+#: templates/pdb-list-bootstrap.php:63 templates/pdb-list-detailed.php:95
+#: templates/pdb-list-flexbox.php:116 templates/pdb-list-responsive.php:46
+#: templates/pdb-search-default.php:63
+msgid "Sort by"
+msgstr ""
+
+#: classes/PDb_List.class.php:609
+msgid "select"
+msgstr ""
+
+#: classes/PDb_List.class.php:765 classes/PDb_List_Admin.class.php:867
+#: classes/PDb_Settings.class.php:819 classes/PDb_Settings.class.php:1251
+msgid "Ascending"
+msgstr ""
+
+#: classes/PDb_List.class.php:766 classes/PDb_List_Admin.class.php:868
+#: classes/PDb_Settings.class.php:819 classes/PDb_Settings.class.php:1251
+msgid "Descending"
+msgstr ""
+
+#: classes/PDb_List.class.php:1237
+msgid ""
+"This will download the whole list of participants that match your search "
+"terms."
+msgstr ""
+
+#: classes/PDb_List.class.php:1238 classes/PDb_List_Admin.class.php:1155
+msgid "Download CSV for this list"
+msgstr ""
+
+#: classes/PDb_List.class.php:1243 classes/PDb_List_Admin.class.php:1156
+msgid "Include field titles"
+msgstr ""
+
+#: classes/PDb_List.class.php:1261 classes/PDb_List_Admin.class.php:1153
+msgid "File Name"
+msgstr ""
+
+#: classes/PDb_List.class.php:1360 classes/PDb_List_Admin.class.php:1482
+msgctxt "submit button label"
+msgid "Delete Checked"
+msgstr ""
+
+#: classes/PDb_List.class.php:1361 classes/PDb_List_Admin.class.php:1483
+msgctxt "submit button label"
+msgid "Change"
+msgstr ""
+
+#: classes/PDb_List.class.php:1362 classes/PDb_List_Admin.class.php:1484
+msgctxt "submit button label"
+msgid "Sort"
+msgstr ""
+
+#: classes/PDb_List.class.php:1363 classes/PDb_List_Admin.class.php:1485
+msgctxt "submit button label"
+msgid "Filter"
+msgstr ""
+
+#: classes/PDb_List.class.php:1364 classes/PDb_List_Admin.class.php:1486
+msgctxt "submit button label"
+msgid "Clear"
+msgstr ""
+
+#: classes/PDb_List.class.php:1365 classes/PDb_List_Admin.class.php:1487
+msgctxt "search button label"
+msgid "Search"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:126
+msgid "Do you really want to delete the selected record?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:127
+msgid "Do you really want to delete the selected records?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:130
+msgid "Approve the selected record?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:131
+msgid "Approve the selected records?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:134
+msgid "Unapprove the selected record?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:135
+msgid "Unapprove the selected records?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:138
+msgid "Send the signup email to the selected record?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:139
+msgid "Send the signup email to the selected records?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:142
+msgid "Send the \"resend link\" email to the selected record?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:143
+msgid "Send the \"resend link\" email to the selected records?"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:145
+#, php-format
+msgid ""
+"The number of selected records exceeds the %s email send limit.%s Only the "
+"first %s will be sent."
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:426
+msgid "Record delete successful."
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:445
+#, php-format
+msgctxt "number of records with approval statuses set"
+msgid "Approval status for %d records has been updated."
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:469 classes/PDb_List_Admin.class.php:491
+#, php-format
+msgctxt "number of emails sent"
+msgid "%d email was sent."
+msgid_plural "%d emails were sent."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/PDb_List_Admin.class.php:790
+msgid "Show only records with"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:801
+msgctxt ""
+"joins two search terms, such as in \"Show only records with last name that "
+"is Smith\""
+msgid "that"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:808
+msgid "is"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:809
+msgid "is not"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:810
+msgid "contains"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:811
+msgid "doesn&#39;t contain"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:812
+msgid "is greater than"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:813
+msgid "is less than"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:827
+msgid "and"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:828
+msgid "or"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:847
+msgid "Number of filters to use: "
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:879
+#, php-format
+msgid "%s record found, sorted by: %s."
+msgid_plural "%s records found, sorted by: %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/PDb_List_Admin.class.php:905 classes/PDb_List_Admin.class.php:1425
+msgid "approve"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:906 classes/PDb_List_Admin.class.php:1426
+msgid "unapprove"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:951
+#, php-format
+msgid "Show %s items per page."
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1010
+msgid "Edit"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1117
+msgid "No records found"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1159
+msgid ""
+"This will download the whole list of participants that match your search "
+"terms, and in the order specified by the sort. The export will include "
+"records on all list pages. The fields included in the export are defined in "
+"the \"CSV\" column on the Manage Database Fields page."
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1422
+msgid "PDb Admin List With Selected: "
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1427
+msgid "send signup email"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1488 participants-database.php:3461
+msgid "Apply"
+msgstr ""
+
+#: classes/PDb_List_Admin.class.php:1489
+msgctxt ""
+"phrase used just before naming the action to perform on the selected items"
+msgid "With selected"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:86 participants-database.php:3635
+msgid "Manage Database Fields"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:88
+#: classes/PDb_Manage_Fields.class.php:96
+msgid "Field Groups"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:97
+msgid "Help"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:192
+msgid "No fields in this group"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:222
+#: classes/PDb_Manage_Fields.class.php:1020
+msgid "field"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:308
+msgid "Edit / Add / Remove Field Groups"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:339
+msgid "fields"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:363
+#: classes/PDb_Manage_Fields.class.php:1019
+msgid "group"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:655
+#: classes/PDb_Manage_Fields.class.php:665
+msgid "Cannot add a field with that name"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:656
+msgid "This name is reserved; please choose another. Reserved names are"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:666
+msgid ""
+"The name must be unique: a field with that name has been previously defined."
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:675
+msgid "The name cannot begin with a number"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:676
+msgid "Please choose another."
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:683
+msgid "The new field was added."
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:685
+msgid "The field could not be added."
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:735
+msgid "There was an error; the settings were not saved."
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:738 classes/PDb_Settings.class.php:639
+msgid "Your information has been updated"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:937
+#, php-format
+msgid ""
+"The %1$s was not added. There is already a %1$s with that name, please "
+"choose another."
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1015
+msgid "Update Fields"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1016
+msgid "Update Groups"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1017
+msgid "Add Field"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1018
+msgid "Add Group"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1021
+msgid "new field title"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1022
+msgid "new group title"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1023
+msgctxt "column name"
+msgid "Fields"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1024
+msgctxt "column name"
+msgid "Group"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1025
+msgctxt "column name"
+msgid "Order"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1026
+msgctxt "column name"
+msgid "Name"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1027
+msgctxt "column name"
+msgid "Title"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1028
+msgctxt "column name"
+msgid "Default"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1029
+msgctxt "column name"
+msgid "Help Text"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1030
+msgctxt "column name"
+msgid "Form Element"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1031
+msgctxt "column name"
+msgid "Values"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1032
+msgctxt "column name"
+msgid "Validation"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1033
+msgctxt "column name"
+msgid "Display Column"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1034
+msgctxt "column name"
+msgid "Admin Column"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1035
+msgctxt "column name"
+msgid "Sortable"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1036
+msgctxt "column name, acronym for \"comma separated values\""
+msgid "CSV"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1037
+msgctxt "column name"
+msgid "Persistent"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1038
+msgctxt "column name"
+msgid "Signup"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1039
+msgctxt "column name"
+msgid "Read Only"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1040
+msgctxt "column name"
+msgid "Admin"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1041
+msgctxt "column name"
+msgid "Delete"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1042
+msgctxt "column name"
+msgid "Display"
+msgstr ""
+
+#: classes/PDb_Manage_Fields.class.php:1043
+msgctxt "column name"
+msgid "Description"
+msgstr ""
+
+#: classes/PDb_Pagination.class.php:366
+msgid "First"
+msgstr ""
+
+#: classes/PDb_Pagination.class.php:377 participants-database.php:3463
+msgid "Previous"
+msgstr ""
+
+#: classes/PDb_Pagination.class.php:396 participants-database.php:3462
+msgid "Next"
+msgstr ""
+
+#: classes/PDb_Pagination.class.php:409
+msgid "Last"
+msgstr ""
+
+#: classes/PDb_Path.class.php:159 participants-database.php:3270
+#, php-format
+msgid "The uploads directory (%s) could not be created."
+msgstr ""
+
+#: classes/PDb_Record.class.php:147
+msgid "back"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:33
+msgid "Signup Form Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:34
+msgid "Record Form Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:35
+msgid "List Display Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:36
+msgid "Resend Link Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:37
+msgid "Admin Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:38
+msgid "Advanced Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:39
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:43
+msgid ""
+"Settings for the [pdb_record] shortcode, which is used to show a user-"
+"editable form on the website."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:44
+msgid ""
+"Settings for the [pdb_list] shortcode, which is used to show a list of "
+"records from the database."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:45
+msgid ""
+"Settings for the [pdb_signup] shortcode, which is used to show a signup or "
+"registration form on the website."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:46
+msgid "Settings for the lost private link resend function."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:47
+msgid "Settings for special configurations."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:48
+msgid "Settings for the plugin backend."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:49
+msgid ""
+"User CSS rules for styling plugin displays.</h4><p>If you're new to CSS, try "
+"this tutorial to help you get started: <a target=\"_blank\" href=\"http://"
+"shrsl.com/?dnf8\">Use Firebug for Editing WordPress Themes.</a></p>"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:58
+msgid "Save Plugin Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:162
+msgid "File Upload Location"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:166
+#, php-format
+msgid ""
+"This defines where the uploaded files will go, relative to the %s. The "
+"default location is '/wp-content/uploads/participants-database'<br />Don't "
+"put it in the plugin folder, the images and files could get deleted when the "
+"plugin is updated."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:173
+msgid "File Upload Limit"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:177
+msgid "the maximum allowed file size (in kilobytes) for an uploaded file"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:185
+msgid "Allowed File Types"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:189
+msgid ""
+"list of allowed file types by file extension. Please be aware that there are "
+"security risks in allowing file uploads."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:196
+msgid "Default Image"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:200
+#, php-format
+msgid ""
+"Path (relative to the %s) of an image file to show if no image has been "
+"defined for an image field. Leave blank for no default image."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:207
+msgid "Link Image to Fullsize"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:212
+msgid ""
+"place a link to the full-size image on images. This link will work with most "
+"\"lightbox\" plugins."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:220
+msgid "Allow File Delete"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:225
+msgid ""
+"if checked, allows uploaded files and images to be deleted from storage when "
+"deleted from a record by a user"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:234
+msgid "Allow HTML Tags in Text Fields"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:239
+msgid "if checked, limited HTML tags are allowed in \"text-line\" fields."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:247
+msgid "Make Links Clickable"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:252
+msgid ""
+"if a \"text-line\" field looks like a link (begins with \"http\" or is an "
+"email address) make it clickable"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:260
+msgid "Protect Email Addresses"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:265
+msgid "protect email addresses in text-line fields with Javascript"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:273
+msgid "Missing Field Error Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:277
+#, php-format
+msgid ""
+"the message shown when a field is required, but left empty (the %s is "
+"replaced by the name of the field)"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:278
+#, php-format
+msgid "The %s field is required."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:284
+msgid "Invalid Field Error Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:288
+msgid ""
+"the message shown when a field's value does not pass the validation test"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:289
+#, php-format
+msgid "The %s field appears to be incorrect."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:295
+msgid "Non-Matching Field Error Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:299
+#, php-format
+msgid ""
+"the message shown when a field's value does match the value of another "
+"field. The first %s will show the name of the field, the second will show "
+"the name of the field it must match."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:300
+#, php-format
+msgid "The %s field must match the %s field."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:307
+msgid "Failed CAPTCHA Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:311
+msgid "the message shown when the CAPTCHA (verify human) test failed"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:312
+#, php-format
+msgid "Pleast try the %s question again."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:318
+msgid "Field Error Style"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:322
+msgid ""
+"the CSS style applied to an input or text field that is missing or has not "
+"passed validation. This must be a valid CSS rule"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:329
+msgid "Mark Required Fields"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:334
+msgid "mark the title of required fields?"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:342
+msgid "Required Field Marker"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:346
+#, php-format
+msgid ""
+"html added to field title for required fields if selected above (the %s is "
+"replaced by the title of the field)"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:371
+msgid "Signup Button Text"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:375
+msgid "text shown on the button to sign up"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:376
+msgctxt "the text on a button to submit a signup form"
+msgid "Sign Up"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:382
+msgid "Signup Thanks Page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:386
+msgid ""
+"after they register, send them to this page for a thank you message. This "
+"page is where you put the [pdb_signup_thanks] shortcode, but you don&#39;t "
+"have to do that if you have them go back to the same page. You can also use "
+"a Post ID for posts and custom post types."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:395
+msgid "Show Field Groups"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:400
+msgid "Show groups and group descriptions in the signup form."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:408 upload_csv.php:158
+msgid "Duplicate Record Check Field"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:413
+msgid ""
+"when a signup is submitted or CSV record is imported, this field is checked "
+"for a duplicate"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:420 upload_csv.php:139
+msgid "Duplicate Record Preference"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:425
+msgid ""
+"when the submission matches the Duplicate Record Check Field of an existing "
+"record. This also applies to importing records from a CSV file."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:428 upload_csv.php:145
+msgid "Create a new record with the submission"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:429
+msgid "Overwrite matching record with new data"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:430
+msgid "Show a validation error message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:438
+msgid "Duplicate Record Error Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:442
+msgid ""
+"If \"Show a validation error message\" is selected above, this message will "
+"be shown if a signup is made with a \"check field\" that matches an existing "
+"record."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:443
+#, php-format
+msgid "A record with that %s already exists. Please choose another."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:449
+msgid "Send Signup Response Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:453
+msgid "Send a receipt email to people who sign up"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:461
+msgid "Signup Email From Address"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:465
+msgid ""
+"the \"From\" address on signup receipt emails. If the recipient hits \"reply"
+"\", their reply will go to this address. It is a good idea to use an email "
+"address from the same domain as this website."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:472
+msgid "Signup Email From Name"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:476
+msgid "the \"From\" name on signup receipt emails."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:483
+msgid "Signup Response Email Subject"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:487
+msgid ""
+"subject line for the signup response email; placeholder tags can be used "
+"(see below)"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:488
+#, php-format
+msgid "You've just signed up on %s"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:494
+msgid "Signup Response Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:498
+msgid ""
+"Body of the email a visitor gets when they sign up. It includes a link "
+"([record_link]) back to their record so they can fill it out. Can include "
+"HTML, placeholders:[first_name],[last_name],[email],[record_link]. You can "
+"only use placeholders for fields that are present in the signup form, "
+"including hidden fields."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:500
+#, php-format
+msgid ""
+"<p>Thank you, [first_name], for signing up with %s.</p><p>You may complete "
+"your registration with additional information or update your information by "
+"visiting this private link at any time: <a href="
+"\"[record_link]\">[record_link]</a>.</p>"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:506
+msgid "Signup Thanks Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:510
+msgid ""
+"Note to display on the web page after someone has submitted a signup form. "
+"Can include HTML and placeholders (see above)"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:511
+msgid ""
+"<p>Thank you, [first_name] for signing up!</p><p>You will receive an email "
+"acknowledgement shortly. You may complete your registration with additional "
+"information or update your information by visiting the link provided in the "
+"email.</p>"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:517
+msgid "Send Signup Notification Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:522
+msgid "Send an email notification that a signup has occurred."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:531
+msgid "Signup Notification Recipients"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:535
+msgid "comma-separated list of email addresses to send signup notifications to"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:542
+msgid "Signup Notification Email Subject"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:546 classes/PDb_Settings.class.php:960
+msgid ""
+"subject of the notification email; placeholder tags can be used (see above)"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:548
+#, php-format
+msgid "New signup on %s"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:554
+msgid "Signup Notification Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:558
+msgid ""
+"notification email body. The [admin_record_link] tag will supply the URL for "
+"editing the record in the admin."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:559
+msgid ""
+"<p>A new signup has been submitted</p><ul><li>Name: [first_name] "
+"[last_name]</li><li>Email: [email]</li></ul><p>Edit this new record here: <a "
+"href=\"[admin_record_link]\">[admin_record_link]</a></p>"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:584
+msgid "Participant Record Page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:589
+msgid ""
+"The page where your participant record ([pdb_record] shortcode) is "
+"displayed. You can use a Post ID for posts and custom post types."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:597
+msgid "Show Groups"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:602
+msgid ""
+"Show the group and description (if defined) under each group title in the "
+"record form."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:610
+msgid "Save Changes Label"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:615
+msgid "label for the save changes button on the record form"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:616
+msgid "Save Your Changes"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:622
+msgid "Save Button Text"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:627
+msgid "text on the \"save\" button"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:628
+msgctxt "a label for a button to save a form"
+msgid "Save"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:634
+msgid "Record Updated Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:638
+msgid "the message shown when a record form has been successfully submitted"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:645
+msgid "Record Not Found Error Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:649
+msgid ""
+"message to show if the record page was accessed without a valid identifier. "
+"Leave this empty if you want nothing at all to show."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:650
+msgid "No record was found."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:656
+msgid "Use Template for No Record Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:661
+msgid ""
+"If checked, use the record template to show the \"Record Not Found\" "
+"message. If unchecked, the message is shown without using the template."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:669
+msgid "Send Record Form Update Notification Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:674
+msgid ""
+"Send an email notification that a record has been updated. These will be "
+"sent to the email addresses listed in the \"Signup Notification Recipients\" "
+"setting."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:682
+msgid "Record Update Email Subject"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:686
+msgid ""
+"subject line for the record update notification email; placeholders can be "
+"used."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:687
+#, php-format
+msgid "A record has just been updated on %s"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:693
+msgid "Record Update Notification Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:698
+msgid ""
+"Body of the the email sent when a user updates their record. Any field from "
+"the form can be included by using a replacement code of the form: "
+"[field_name]. For instance: [last_name],[address],[email] etc. (The field "
+"name is under the \"name\" column on the \"Manage Database Fields\" page.)  "
+"Also available is [date] which will show the date and time of the update and "
+"[admin_record_link] tag for a link to edit the record in the admin."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:699
+msgid ""
+"<p>The following record was updated on [date]:</p><ul><li>Name: [first_name] "
+"[last_name]</li><li>Address: [address]</li><li>[city], [state], [country]</"
+"li><li>Phone: [phone]</li><li>Email: [email]</li></ul><p>Edit this record <a "
+"href=\"[admin_record_link]\">here.</a></p>"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:725
+msgid "Records per Page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:729
+msgid "the number of records to show on each page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:737
+msgid "Single Record Link Field"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:742
+msgid ""
+"select the field on which to put a link to the [pdb_single] shortcode. Leave "
+"blank or set to \"none\" for no link."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:749
+msgid "Single Record Page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:755
+msgid ""
+"this is the page where the [pdb_single] shortcode is located. If you want to "
+"assign a post or custom post type, select \"Post ID\" and enter the post ID "
+"in the \"other\" box."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:762
+msgid "No Records Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:766
+msgid "Message shown when no records are found."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:767
+msgid "No Records Found"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:772
+msgid "Show Count"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:777
+msgid "Show the list count on list displays. Can also be set in the shortcode."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:785
+msgid "List Count Template"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:789
+#, php-format
+msgid ""
+"template for displaying the list count. %1$s - total number of records "
+"found, %2$s - number of records shown per page, %3$s - starting record "
+"number, %4$s - ending record number, %5$s - the current page number"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:790
+#, php-format
+msgid "Total Records Found: %1$s, showing %2$s per page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:800
+msgid "List Default Sort"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:806
+msgid ""
+"The record list shown by the list shortcode will be sorted by this field by "
+"default. (Field must be checked \"sortable.\")"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:813
+msgid "List Default Sort Order"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:817
+msgid "Sets the default order of the records shown by the list shortcode."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:826
+msgid "Allow Empty Search"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:831
+msgid ""
+"This allows frontend searches to find records with missing or blank data."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:841
+msgid "Strict User Searching"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:846
+msgid ""
+"When checked, the frontend list search must match the whole field exactly. "
+"If unchecked, the search will match if the search term is found in part of "
+"the field. Searches are not case-sensitive either way."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:860
+msgid "Enable Lost Private Link"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:865
+msgid ""
+"Show a link on the signup form allowing users to have their private link "
+"emailed to them."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:873
+msgid "Lost Private Link Text"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:877
+msgid "clickable text shown in the signup form"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:878
+msgid "Forget your private link? Click here to have it emailed to you."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:883
+msgid "Lost Private Link Page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:888
+msgid "send people to this page to request their private link."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:897
+msgid "Lost Private Link ID Field"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:901
+msgid ""
+"The field used to identify the user&#39;s account. This must be a unique "
+"identifier for the record"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:909
+msgid "ID Field Help Text"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:913
+msgid "help text for the record identification field"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:914
+#, php-format
+msgid "Type in your %s, your private link will be emailed to you."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:920
+msgid "Lost Private Link Email Subject"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:924
+msgid "subject line for the lost private link email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:925
+#, php-format
+msgid "Here is your private link on %s"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:931
+msgid "Lost Private Link Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:935
+msgid "Body of the email sent when a lost private link is requested."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:937
+#, php-format
+msgid "Here is the private link you requested from %s:"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:943
+msgid "Send Lost Private Link Notification Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:948
+msgid ""
+"Send an email notification that a lost private link has been requested. This "
+"email will go to the \"Signup Notification Recipients.\""
+msgstr ""
+
+#: classes/PDb_Settings.class.php:956
+msgid "Lost Private Link Notification Email Subject"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:962
+#, php-format
+msgid "A Lost Private Link has been requested on %s"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:968
+msgid "Lost Private Link Notification Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:972
+msgid "notification email body"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:973
+msgid ""
+"<p>A lost private link has been requested by:</p><ul><li>Name: [first_name] "
+"[last_name]</li><li>Email: [email]</li></ul>"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:979
+msgid "Retrieve Private Link Error Message"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:983
+msgid ""
+"Message shown when a record matching the retrieve link idenifier cannot be "
+"found"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:984
+#, php-format
+msgid "A record matching that %s cannot be found."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:998
+msgid "Use the Plugin CSS"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1003
+msgid "use the plugin's CSS to style the output of shortcodes"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1011
+msgid "Use Rich Text Editor"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1016
+msgid ""
+"enable the rich text editor on \"rich-text\" fields for front-end users. If "
+"deselected, \"rich-text\" fields will appear as text-area fields. This does "
+"not affect admin users, who always have the use of the rich-text editor."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1029
+msgid "Use WordPress Auto Formatting"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1034
+msgid ""
+"Select the filter mode for all rich text outputs, including HTML emails."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1037
+msgid "global content filter"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1038
+msgid "WordPress auto paragraphs"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1039
+msgid "auto paragraphs + shortcodes"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1040
+msgid "none"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1050
+msgid "Remove Line Breaks"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1055
+msgid "Remove line breaks from all plugin shortcode ouput."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1067
+msgid "Use Pagination Scroll Anchors"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1072
+msgid ""
+"Uncheck this if your theme prevents pagination links with scroll anchors "
+"from working."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1080
+msgid "Primary Email Address Field"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1085
+msgid "this field is the primary email address for the record"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1093
+msgid "Send HTML Email"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1098
+msgid ""
+"use rich text in plugin emails? If you turn this off, be sure to remove all "
+"HTML tags from the email body settings for the plugin."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1107
+msgid "Strict Date Format"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1113
+#, php-format
+msgid ""
+"This forces date inputs to be interpreted strictly according to the \"Input "
+"Date Format\" setting. You should tell your users what format you are "
+"expecting them to use. This also applies to date values used in [pdb_list] "
+"shortcode filters. The date with your current setting looks like this: "
+"<strong>%s</strong> %s"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1113
+msgid "Your current PHP installation does not support this setting."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1122
+msgid "Input Date Format"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1127
+msgid ""
+"date formatting string for all plugin date inputs when \"Strict Date Format"
+"\" is enabled. You should use this for all localized (non-American English) "
+"date formats."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1134
+msgid "Enable AJAX Search Functionality"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1139
+msgid ""
+"This enables list search results that are updated without reloading the "
+"page. It requires Javascript, but search will still work if Javascript is "
+"disabled in the user's browser."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1147
+msgid "Use PHP Sessions"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1152
+msgid "check this to use PHP sessions instead of database sessions."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1160
+msgid "Cookie Name"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1165
+msgid ""
+"Change the name of the cookie for compatibility with some web hosting setups."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1172
+msgid "Disable Backend Developer Ads"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1177
+msgid "select this to disable developer ads in the admin."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1185
+msgid "File and Image Uploads Use WP Content Path"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1190
+msgid ""
+"when selected, the base path for file and image uploads will be the site's "
+"content directory."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1198
+msgid "Allow Record Timestamps to be Edited"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1203
+msgid ""
+"normally, record timestamps (date_recorded, date_updated, last_accessed) are "
+"not editable, checking this allows them to be edited."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1212
+msgid "Enable Debugging"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1217
+#, php-format
+msgid "this will enable writing to the %s debugging log."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1232
+msgid "Admin List Default Sort"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1238
+msgid ""
+"The record list shown in the admin section will be sorted by this field by "
+"default. (Field must be checked \"sortable.\")"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1245
+msgid "Admin List Default Sort Order"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1249
+msgid "Sets the default order of the record list in the admin."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1257
+msgid "Show Image Thumbnails in Admin List"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1272
+msgid "Plugin Admin Horizontal Scrolling"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1277
+msgid "use horizontal scrolling on list and fields management screens"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1285
+msgid "Record Edit Access Level"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1289
+msgid "sets the user access level for adding, editing and listing records."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1297
+msgid "Plugin Admin Access Level"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1301
+msgid ""
+"sets the user access level for fields management, plugin settings, deleting "
+"records and CSV operations."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1309
+msgid "Admin Record Edits are Validated"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1314
+msgid "When checked, admin record edits and new records must pass validation."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1322
+msgid "Editor can Export CSV Files"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1326
+msgid "If checked, users with the plugin editor role can export a CSV."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1335
+msgid "Show Timestamp Time"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1340
+msgid "Show time with timestamp dates"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1354
+msgid "Custom Plugin Stylesheet"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1359
+msgid ""
+"use this to add your own styles or override styles applied to the output of "
+"all plugin shortcodes"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1369
+msgid "Plugin Print Stylesheet"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1374
+msgid "use this to format the printed output of all plugin shortcodes"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1384
+msgid "Custom Admin Stylesheet"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1389
+msgid ""
+"use this to add or modify CSS rules that are applied on all plugin pages in "
+"the WordPress backend."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1412
+msgid "Same Page"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1447
+msgid "None"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1541
+msgid "Contributor"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1542
+msgid "Author"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1543
+msgid "Editor"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1544
+msgid "Admin"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1621 participants-database.php:3637
+#: participants-database.php:3698
+msgid "Settings"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1708 classes/PDb_Settings.class.php:1714
+#, php-format
+msgid "Only numeric values can be used for the \"%s\" setting."
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1759
+msgid "Content Directory"
+msgstr ""
+
+#: classes/PDb_Settings.class.php:1759
+msgid "WordPress root"
+msgstr ""
+
+#: classes/PDb_Shortcode.class.php:292
+#, php-format
+msgctxt "message to show if the plugin cannot find the template"
+msgid ""
+"<%1$s>The template %2$s was not found.</%1$s> Please make sure the name is "
+"correct and the template file is in the correct location."
+msgstr ""
+
+#: classes/PDb_Shortcode.class.php:1303
+msgid "next"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:218
+msgctxt "Plugin installer section title"
+msgid "Description"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:219
+msgctxt "Plugin installer section title"
+msgid "Installation"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:220
+msgctxt "Plugin installer section title"
+msgid "FAQ"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:221
+msgctxt "Plugin installer section title"
+msgid "Screenshots"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:222
+msgctxt "Plugin installer section title"
+msgid "Changelog"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:223
+msgctxt "Plugin installer section title"
+msgid "Reviews"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:224
+msgctxt "Plugin installer section title"
+msgid "Support"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:246
+msgid "Plugin Install"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:296
+msgid "Version:"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:298
+msgid "Author:"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:300
+msgid "Last Updated:"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:303
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:308
+msgid "Requires WordPress Version:"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:311
+#, php-format
+msgid "%s or higher"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:315
+msgid "Compatible up to:"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:317
+msgid "Active Installs:"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:319
+msgctxt "Active plugin installs"
+msgid "1+ Million"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:325
+msgid "WordPress.org Plugin Page &#187;"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:327
+msgid "Plugin Homepage &#187;"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:329
+msgid "Add-Ons &amp; Extras &#187;"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:331
+#: classes/PDb_Update_Notices.class.php:386
+msgid "Donate to this plugin &#187;"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:335
+msgid "Average Rating"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:337
+#, php-format
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/PDb_Update_Notices.class.php:343
+msgid "Reviews"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:344
+msgid "Read all reviews on WordPress.org or write your own!"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:350
+#, php-format
+msgid "Reviews with %1$d star: %2$s. Opens in a new window."
+msgid_plural "Reviews with %1$d stars: %2$s. Opens in a new window."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/PDb_Update_Notices.class.php:355
+#, php-format
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/PDb_Update_Notices.class.php:366
+msgid "Contributors"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:393
+msgid ""
+"<strong>Warning:</strong> This plugin has <strong>not been tested</strong> "
+"with your current version of WordPress."
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:395
+msgid ""
+"<strong>Warning:</strong> This plugin has <strong>not been marked as "
+"compatible</strong> with your version of WordPress."
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:424
+msgid "Install Now"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:429
+msgid "Install Update Now"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:434
+#, php-format
+msgid "Newer Version (%s) Installed"
+msgstr ""
+
+#: classes/PDb_Update_Notices.class.php:437
+msgid "Latest Version Installed"
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:94
+#, php-format
+msgid "The file %s has been uploaded."
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:100
+#, php-format
+msgid "%s record added"
+msgid_plural "%s records added"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/xnau_CSV_Import.class.php:104
+#, php-format
+msgid "%s matching record updated"
+msgid_plural "%s matching records updated"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/xnau_CSV_Import.class.php:109
+#, php-format
+msgid "%s duplicate record skipped"
+msgid_plural "%s duplicate records skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/xnau_CSV_Import.class.php:114
+#, php-format
+msgid "%s record skipped due to errors"
+msgid_plural "%s records skipped due to errors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/xnau_CSV_Import.class.php:118
+msgid "Zero records imported"
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:123
+msgid ""
+"There was an error uploading the file. This could be a problem with "
+"permissions on the uploads directory."
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:123 classes/xnau_CSV_Import.class.php:129
+msgid "Destination"
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:129
+msgid ""
+"Target directory does not exist and could not be created. Try creating it "
+"manually."
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:155
+msgid "Invalid file for import."
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:198
+msgid "Error occured while trying to add the data to the database"
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:198
+#, php-format
+msgid ""
+"Input file does not exist or path is incorrect.<br />Attempted to load: %s"
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:248
+#, php-format
+msgid ""
+"The number of items in line %s is incorrect.<br />There are %s and there "
+"should be %s."
+msgstr ""
+
+#: classes/xnau_CSV_Import.class.php:257
+msgid "Number of values does not match number of columns"
+msgstr ""
+
+#: classes/xnau_FormElement.class.php:247
+msgctxt "indicates a write-in choice"
+msgid "other"
+msgstr ""
+
+#: classes/xnau_FormElement.class.php:248
+msgctxt "indicates the text to be clicked to go to another web page"
+msgid "Link Text"
+msgstr ""
+
+#: edit_participant.php:86
+msgctxt "abbreviation for \"identification\""
+msgid "ID"
+msgstr ""
+
+#: edit_participant.php:86
+msgctxt "indicates a new record is being entered"
+msgid "(new record)"
+msgstr ""
+
+#: edit_participant.php:111
+msgid "hidden"
+msgstr ""
+
+#: edit_participant.php:132
+msgid "read only"
+msgstr ""
+
+#: edit_participant.php:250
+msgid "Save the Record"
+msgstr ""
+
+#: edit_participant.php:264
+msgid ""
+"<strong>Submit:</strong> save record and return to list<br><strong>Apply:</"
+"strong> save record and continue with same record<br><strong>Next:</strong> "
+"save record and then start a new one"
+msgstr ""
+
+#: edit_participant.php:268
+msgid "<strong>Previous:</strong> save and move to previous record"
+msgstr ""
+
+#: manage_fields_help.php:4
+msgid "Manage Fields Help"
+msgstr ""
+
+#: manage_fields_help.php:5
+#, php-format
+msgid ""
+"Please visit the %sParticipants Database help pages%s for up-to-date "
+"information on using this plugin."
+msgstr ""
+
+#: manage_fields_help.php:6
+msgid "Defining Database Fields"
+msgstr ""
+
+#: manage_fields_help.php:7
+msgid ""
+"The database stores information about people. On this page, you can "
+"determine what pieces of information are stored and how they are presented "
+"and interacted with. Take a look at the \"Add Participant\" page to see how "
+"the form is presented. You will be able to see your changes to how the "
+"fields are set up by checking this page."
+msgstr ""
+
+#: manage_fields_help.php:8
+msgid ""
+"<strong>Important:</strong> Some of the changes you can make here will "
+"affect existing records in the database. It is best to set up your database "
+"before you begin adding records, but it is possible to add fields to the "
+"database at any time. Any records that were entered before the new field was "
+"added will have no value for the field. This can be filled in by then "
+"editing the record."
+msgstr ""
+
+#: manage_fields_help.php:9
+msgid "Delete"
+msgstr ""
+
+#: manage_fields_help.php:10
+msgid ""
+"Click on the red \"X\" to delete a field. If there are existing records with "
+"this data field, that information will not be deleted from the database, but "
+"you will no longer be able to display or edit it."
+msgstr ""
+
+#: manage_fields_help.php:11
+msgid "Order"
+msgstr ""
+
+#: manage_fields_help.php:12
+msgid ""
+"Click and drag to reorder the fields. You do not need to click on \"Update\" "
+"for the change to take effect."
+msgstr ""
+
+#: manage_fields_help.php:13
+msgid "Title"
+msgstr ""
+
+#: manage_fields_help.php:14
+msgid ""
+"This is the display title for your field. You can change it at any time, it "
+"won&#39;t affect the field in any way other than to change how it is labeled "
+"in forms.<p>"
+msgstr ""
+
+#: manage_fields_help.php:15
+msgid "Default"
+msgstr ""
+
+#: manage_fields_help.php:16
+msgid "If you wish to pre-load a field with a value, you can put it here."
+msgstr ""
+
+#: manage_fields_help.php:17
+msgid "Group"
+msgstr ""
+
+#: manage_fields_help.php:18
+msgid ""
+"The database fields are organized into groups, and you can select which "
+"group the database field belongs to here. You can edit the groups under the "
+"\"Field Groups\" tab."
+msgstr ""
+
+#: manage_fields_help.php:19
+msgid "Help Text"
+msgstr ""
+
+#: manage_fields_help.php:20
+msgid ""
+"When a form is displayed, sometimes it is a good idea to explain something "
+"about the information you want in a field. Any text you put in here will be "
+"displayed next to the field. HTML is allowed, but be careful with that, you "
+"can break things!"
+msgstr ""
+
+#: manage_fields_help.php:21
+msgid "Form Element"
+msgstr ""
+
+#: manage_fields_help.php:22
+msgid ""
+"If your piece of information is a simple line of text (like a name), it "
+"should be presented in the form as a text field. If a longer piece of text "
+"is called for, a text-field would be a better choice, and so forth. This is "
+"where you can determine what kind of form element this particular piece of "
+"information will be preseted with."
+msgstr ""
+
+#: manage_fields_help.php:23
+msgid ""
+"Under the multiple-choice dropdown are the form elements you can choose "
+"from. It is really best to avoid changing this once you have begun adding "
+"records to the database using this field&hellip;unpredictable things can "
+"happen, and although you won&#39;t lose any data, it can make a mess! That "
+"said, it <em>is</em> possible to change between similar elements, like text/"
+"text-field or select/dropdown or select-other/dropdown-other. Be warned, "
+"it&#39;s safest to set this up before you start getting data for the field."
+msgstr ""
+
+#: manage_fields_help.php:24
+msgid "Values"
+msgstr ""
+
+#: manage_fields_help.php:25
+msgid ""
+"For form elements that have multiple choices, you need to define those "
+"choices here. Type in a comma-separated list of the options you want to "
+"present."
+msgstr ""
+
+#: manage_fields_help.php:26
+msgid ""
+"Don&#39;t try to have a comma in one of your options, though! It&#39;s "
+"posiible to break things by trying to include other (mostly non-text and "
+"punctuation) characters, so test things, and if you get erratic behavior in "
+"the form, you may have characters here that are messing things up. Most "
+"international language characters should be fine, just type them in. Don&#39;"
+"t try to use HTML entities or codes, it just won&#39;t work."
+msgstr ""
+
+#: manage_fields_help.php:27
+msgid "Validation"
+msgstr ""
+
+#: manage_fields_help.php:28
+msgid ""
+"If you wish certain fields to be required or have a specific kind of "
+"content, you can set that here. \"Not Required\" means you don&#39;t care if "
+"the field is filled in or not. \"Required\" simply means the field must have "
+"something in it. \"match/regex\" gives you some advanced options for "
+"validating a field. To match the field to the value of another field, put "
+"the name of that field in the box. You can also use a regex to validate the "
+"field, but it is for advanced users, so if you don&#39;t know what a regex "
+"is, get some help before trying to use this feature."
+msgstr ""
+
+#: manage_fields_help.php:29
+msgid "Admin Column"
+msgstr ""
+
+#: manage_fields_help.php:30
+msgid ""
+"This only affects the \"List Participants\" page of the plugin. On that "
+"page, the database records are listed. Since it would be impractical to "
+"include every field as a column in this list, you can select which fields "
+"are shown here. \"0\" means don&#39;t display it, a number sets the order in "
+"which the column will appear. You have to make sure the numbers make sense, "
+"if you have multiple items with the same number (other than 0), only the "
+"last one with the number will appear."
+msgstr ""
+
+#: manage_fields_help.php:31
+msgid "Display Column"
+msgstr ""
+
+#: manage_fields_help.php:32
+msgid ""
+"When using the [pdb_list] shortcode to display the list of records, this "
+"column determines whether the column will be shown and in what order."
+msgstr ""
+
+#: manage_fields_help.php:33
+msgid "Switches"
+msgstr ""
+
+#: manage_fields_help.php:34
+msgid ""
+"<strong>Sortable</strong> means the list presented on the \"List Participants"
+"\" page can be sorted by this field. Of course, it must have a non-zero "
+"value in \"Column\" to be seen at all."
+msgstr ""
+
+#: manage_fields_help.php:35
+msgid ""
+"<strong>CSV</strong> means the field is one that can be imported or exported "
+"with a CSV file. If you are using CSV files to bring in records, you should "
+"set these switches based on which fields you are planning to import. When "
+"exporting a CSV, this switch determines whether the field will be exported."
+"<p>"
+msgstr ""
+
+#: manage_fields_help.php:36
+msgid ""
+"<strong>Persistent</strong> is a convenience feature helpful when you are "
+"manually entering a series of records in the admin. If set, it means the "
+"field will carry over to the next blank entry. For instance, if a group of "
+"records from the same city are being entered, set the \"city\" field to be "
+"persistent, then once a city value has been entered in the first record of "
+"the series, the next blank record will have this city pre-filled."
+msgstr ""
+
+#: manage_fields_help.php:37
+msgid ""
+"Persistent fields will also use their set default value in record edit forms "
+"where no value has been set in the record being edited"
+msgstr ""
+
+#: manage_fields_help.php:38
+msgid ""
+"<strong>Signup</strong> selects this field for use in the brief signup form "
+"that is presented with the [pdb_signup] shortcode."
+msgstr ""
+
+#: manage_fields_help.php:39
+msgid ""
+"<strong>Readonly</strong> means that plugin users can see the value of the "
+"field, but cannot edit it. The field will be editable in the admin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: participants-database.php:515
+msgid "Participants Database"
+msgstr ""
+
+#: participants-database.php:665
+msgid "You must remove all fields from the {name} group before deleting it."
+msgstr ""
+
+#: participants-database.php:667
+msgid "Delete the \"{name}\" {thing}?"
+msgstr ""
+
+#: participants-database.php:668
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: participants-database.php:669
+msgid ""
+"Changing the form element on a field that has stored data can result in data "
+"loss."
+msgstr ""
+
+#: participants-database.php:669
+msgid "More information here…"
+msgstr ""
+
+#: participants-database.php:670
+msgid "Yes, change the form element"
+msgstr ""
+
+#: participants-database.php:671
+msgid "No, don't change the form element"
+msgstr ""
+
+#: participants-database.php:3460 templates/pdb-retrieve-bootstrap.php:69
+#: templates/pdb-retrieve-default.php:60
+msgid "Submit"
+msgstr ""
+
+#: participants-database.php:3464
+msgid "The record has been updated."
+msgstr ""
+
+#: participants-database.php:3465
+msgid "The new record has been added."
+msgstr ""
+
+#: participants-database.php:3466
+#, php-format
+msgid "No record was added on query: %s"
+msgstr ""
+
+#: participants-database.php:3467
+#, php-format
+msgid "Database Error: %2$s on query: %1$s"
+msgstr ""
+
+#: participants-database.php:3609
+msgid "WordPress Plugin"
+msgstr ""
+
+#: participants-database.php:3610
+msgid ""
+"Helping organizations manage their volunteers, members and participants."
+msgstr ""
+
+#: participants-database.php:3613
+msgid "Developed by"
+msgstr ""
+
+#: participants-database.php:3614
+msgid ""
+"Suggestions or criticisms of this plugin? I&#39;d love to hear them: email "
+msgstr ""
+
+#: participants-database.php:3617
+#, php-format
+msgid ""
+"Please consider contributing to the continued support and development of "
+"this software by visiting %1$sthis plugin&#39;s page,%3$s giving the plugin "
+"a %2$srating%3$s or review, or dropping something in the %1$stip jar.%3$s "
+"Thanks!"
+msgstr ""
+
+#: participants-database.php:3633
+msgid "Add Participant"
+msgstr ""
+
+#: participants-database.php:3634 participants-database.php:3641
+msgid "List Participants"
+msgstr ""
+
+#: participants-database.php:3636 upload_csv.php:41
+msgid "Import CSV File"
+msgstr ""
+
+#: participants-database.php:3638
+msgid "Setup Guide"
+msgstr ""
+
+#: participants-database.php:3639
+msgid "Add New Participant Record"
+msgstr ""
+
+#: participants-database.php:3640
+msgid "Edit Existing Participant Record"
+msgstr ""
+
+#: participants-database.php:3642
+msgid "Export CSV"
+msgstr ""
+
+#: participants-database.php:3775
+#, php-format
+msgid ""
+"Participants Database requires PHP version %s to function properly, you have "
+"PHP version %s. Please upgrade PHP. The Plugin has been auto-deactivated."
+msgstr ""
+
+#: templates/pdb-retrieve-bootstrap.php:10
+#: templates/pdb-retrieve-default.php:10
+msgid "Request your Private Link"
+msgstr ""
+
+#: templates/pdb-retrieve-bootstrap.php:19
+#: templates/pdb-retrieve-default.php:17
+msgid "Success: your private link has been emailed to you."
+msgstr ""
+
+#: upload_csv.php:62
+msgid "Prepare a spreadsheet file with the correct format:"
+msgstr ""
+
+#: upload_csv.php:63
+msgid ""
+"To properly import your membership data, the columns in your spreadsheet "
+"must match exactly the columns in the database. Currently, the CSV export "
+"columns are as follows:"
+msgstr ""
+
+#: upload_csv.php:78
+#, php-format
+msgid ""
+"This means your spreadsheet needs to have %s columns, and the heading in "
+"each of those columns needs to match exactly the names above. If there is no "
+"data for a particular column, you can include it and leave it blank, or "
+"leave it out entirely. The order of the columns doesn&#39;t matter."
+msgstr ""
+
+#: upload_csv.php:79
+msgid ""
+"If the imported CSV file has a different column set, that column set will be "
+"imported and used. If a column name does not match a defined column in the "
+"database, the data from that column will be discarded"
+msgstr ""
+
+#: upload_csv.php:80
+msgid "Get Blank CSV File"
+msgstr ""
+
+#: upload_csv.php:80
+msgid ""
+"You can download this file, then open it in Open Office, Excel or Google "
+"Docs."
+msgstr ""
+
+#: upload_csv.php:86
+msgid "Export the .csv file"
+msgstr ""
+
+#: upload_csv.php:87
+msgid ""
+"When you have your spreadsheet properly set up and filled with data, export "
+"it as any of the following: \"comma-delimited csv\", or just \"csv\". Save "
+"it to your computer then upload it here."
+msgstr ""
+
+#: upload_csv.php:88
+msgid ""
+"Exported CSV files should be comma-delimited and enclosed with double-quotes "
+"(\"). Encoding should be \"UTF-8.\""
+msgstr ""
+
+#: upload_csv.php:93
+msgid "Upload the .csv file"
+msgstr ""
+
+#: upload_csv.php:101
+msgid "Enclosure character"
+msgstr ""
+
+#: upload_csv.php:107 upload_csv.php:123
+msgid "Auto"
+msgstr ""
+
+#: upload_csv.php:117
+msgid "Delimiter character"
+msgstr ""
+
+#: upload_csv.php:126
+msgid "tab"
+msgstr ""
+
+#: upload_csv.php:146
+msgid "Update matching record with new data"
+msgstr ""
+
+#: upload_csv.php:147
+msgid "Don't import the record"
+msgstr ""
+
+#: upload_csv.php:170
+msgid ""
+"<strong>Note:</strong> Depending on the \"Duplicate Record Preference\" "
+"setting, imported records are checked against existing records by the field "
+"set in the \"Duplicate Record Check Field\" setting. If a record matching an "
+"existing record is imported, one of three things can happen, based on the "
+"\"Duplicate Record Preference\" setting:"
+msgstr ""
+
+#: upload_csv.php:171
+msgid "Current Setting"
+msgstr ""
+
+#: upload_csv.php:174
+#, php-format
+msgid ""
+"%sCreate New%s adds all imported records as new records without checking for "
+"a match."
+msgstr ""
+
+#: upload_csv.php:175
+#, php-format
+msgid ""
+"%sOverwrite%s an existing record with a matching %s will be updated with the "
+"data from the imported record. Blank or missing fields will not overwrite "
+"existing data."
+msgstr ""
+
+#: upload_csv.php:176
+#, php-format
+msgid ""
+"%sDon&#39;t Import%s does not import the new record if it matches the %s of "
+"an existing one."
+msgstr ""
+
+#: upload_csv.php:185
+msgid "Choose .csv file to import:"
+msgstr ""
+
+#: upload_csv.php:186
+msgid "Upload File"
+msgstr ""
+
+#: vendor/aux-plugin-update/Puc/v4p1/Plugin/UpdateChecker.php:358
+msgid "Check for updates"
+msgstr ""
+
+#: vendor/aux-plugin-update/Puc/v4p1/Plugin/UpdateChecker.php:405
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: vendor/aux-plugin-update/Puc/v4p1/Plugin/UpdateChecker.php:407
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: vendor/aux-plugin-update/Puc/v4p1/Plugin/UpdateChecker.php:409
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: vendor/aux-plugin-update/Puc/v4p1/Vcs/PluginUpdateChecker.php:83
+msgid "There is no changelog available."
+msgstr ""
+
+#: vendor/wp-background-process/wp-background-process.php:425
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xnau.com/wordpress-plugins/participants-database"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin for managing a database of participants, members or volunteers"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Roland Barker, xnau webdesign"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xnau.com"
+msgstr ""

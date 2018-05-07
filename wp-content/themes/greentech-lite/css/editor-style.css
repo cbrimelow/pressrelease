@@ -1,0 +1,100 @@
+html .mceContentBody {
+	max-width: 770px;
+}
+
+a {
+	color: #151e26;
+}
+
+h1, h2, h3, h4, h5, h6,
+blockquote {
+	font-family: "Roboto Slab", serif;
+	line-height: 1.2;
+}
+
+blockquote {
+    font-style: normal;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: left;
+    background: #111111;
+    color: #fff;
+    padding: 22px 30px 10px;
+}
+
+cite {
+    color: #61A83E;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+td,
+th,
+caption {
+	border: 1px solid #dedede;
+	padding: 8px 1.5em;
+}
+
+td a,
+th a,
+caption a {
+	color: #151e26;
+}
+
+ul, ol {
+	margin: 0 0 20px;
+	padding-left: 20px;
+}
+
+li > ul, li > ol {
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 9.375px;
+	font-size: 0.58594rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}

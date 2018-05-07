@@ -1,0 +1,315 @@
+/*
+Theme Name: Greentech
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+* {
+	direction: rtl !important;
+}
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align: right;
+}
+
+ul {
+	padding: 0 1.5em 0 0;
+}
+
+/* Top Bar */
+.topbar .topbar-left {
+	float: right;
+}
+
+.topbar .topbar-right {
+	float: left;
+}
+
+.topbar .topbar-left a i {
+	display: inline;
+}
+
+.custom-logo-link {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+/* Search */
+.site-search {
+	float: left;
+	margin-left: 0px;
+	margin-right: 40px;
+}
+
+.site-search > div {
+	right: unset;
+	left: 0;
+}
+
+/* Navigation */
+.main-navigation {
+	float: left;
+}
+
+.main-navigation li.menu-item-has-children > a::after {
+	margin-left: 0px;
+	margin-right: 8px;
+}
+
+.main-navigation ul.menu > li {
+	margin-left: 0px;
+	margin-right: 20px;
+}
+
+.rtl .main-navigation ul ul {
+	left: unset;
+}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	display: block;
+	left: unset;
+}
+
+.main-navigation ul.menu .sub-menu li.menu-item-has-children > a::after {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	left: unset;
+	right: 6px;
+	height: 14px;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: unset;
+	right: 100%;
+}
+
+.main-navigation ul.menu .sub-menu {
+	-webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+	padding: 0;
+}
+
+.rtl .main-navigation ul ul ul {
+	left: 120%;
+	right: unset;
+}
+
+.rtl .main-navigation ul ul li:hover > ul,
+.rtl .main-navigation ul ul li.focus > ul {
+	left: 100%;
+	right: unset;
+}
+
+.menu-toggle {
+	float: left;
+}
+
+.mobile-navigation {
+	right: unset;
+	left: 0;
+}
+
+.mobile-navigation ul.mobile-menu li.menu-item-has-children::before {
+	float: left;
+	padding-right: 0;
+	padding-left: 12px;
+}
+
+.mobile-navigation ul.mobile-menu > li {
+	padding: 10px 15px 10px 0;
+}
+
+.mobile-navigation ul.mobile-menu > li .sub-menu {
+	padding-left: 0;
+	padding-right: 18px;
+}
+
+.mobile-navigation ul.mobile-menu > li .sub-menu li {
+	padding: 7px 10px 7px 0;
+}
+
+/* Featured Post */
+.custom-url .number {
+	float: right;
+	padding-left: .9375rem;
+	margin-left: .9375rem;
+	padding-right: 0;
+	margin-right: 0;
+	border-left: 1px solid #fff;
+	border-right: none;
+}
+
+/* Service */
+.service .image {
+	order: 2;
+}
+.service .info {
+	order: 1;
+}
+@media (min-width: 992px) {
+	.service:nth-last-child(-n+3) .image {
+		order: 1;
+	}
+	.service:nth-last-child(-n+3) .info {
+		order: 2;
+	}
+}
+
+/* Widget Footer */
+.widget-footer ul li {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.widget-footer .menu li::before {
+	left: unset;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.widget-footer .aside-post .image {
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+.aside-post .image {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.widget-footer .contact li {
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+.widget-footer .contact i {
+	left: unset;
+	right: 0;
+}
+
+.widget_calendar table tfoot #next {
+	text-align: left;
+}
+
+.bottombar .bottombar-left {
+	float: right;
+}
+
+.site-content .widget-area {
+	margin-left: unset;
+	margin-right: auto;
+}
+
+/* Button */
+.blog .btn,
+.archive .btn {
+	border-top-right-radius: 26px;
+	border-top-left-radius: 0;
+}
+
+.blog .link-more,
+.archive .link-more {
+	left: unset;
+	right: 0;
+}
+
+/* entry footer in post */
+.blog article .entry-footer,
+.archive article .entry-footer {
+	right: unset;
+	left: 0;
+}
+
+.blog .comments-link,
+.archive .comments-link {
+	float: left;
+	padding-bottom: 15px;
+}
+
+.blog .comments-link .icon,
+.archive .comments-link .icon {
+	margin-right: 0px;
+	margin-left: 6px;
+}
+
+.menu-toggle::before {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+div.sharedaddy .sd-sharing h3.sd-title {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+/* Widget */
+.widget_archive ul li,
+.widget_categories ul li {
+	text-align: left;
+}
+
+.widget_archive ul li a,
+.widget_categories ul li a {
+	float: right;
+	text-align: right;
+}
+
+.site-logo {
+	float: right;
+}
+
+/* Contact form */
+form.contact-form label {
+	display: block;
+	margin-top: 20px;
+}
+
+/* Comment section */
+.comment-author .avatar {
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+
+.comments-area ol .reply {
+	right: unset;
+	left: 0;
+}
+
+.comment-edit-link {
+	float: left;
+}
+
+.comment-list time {
+	padding-right: 17px;
+	padding-left: 0px;
+}
+
+.comment-list time::before {
+	left: unset;
+	right: 0;
+}
+
+/* Calendar */
+td, th {
+	text-align: right;
+}
+
+@media(max-width: 767px) {
+	.site-search {
+		margin-right: 20px;
+	}
+}
