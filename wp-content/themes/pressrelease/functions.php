@@ -1,7 +1,6 @@
 <?php
 
-/* Disable WordPress Admin Bar for all users but admins. */
-  show_admin_bar(false);
+show_admin_bar(false);
 
 function auto_redirect_external_after_logout(){
   wp_redirect( 'http://tctpressrelease.test/' );

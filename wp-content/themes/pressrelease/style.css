@@ -173,8 +173,10 @@ nav#main li a {
 	border-bottom: 5px solid #007b88;
 	display: block;
 	text-decoration: none;
+    -webkit-transition: border 1s;
+    transition: border .5s;	
 }
-nav#main li a:hover {
+nav#main li a:hover, nav#main li.current_page_item a {
 	border-bottom: 5px solid #81bec3;
 	text-decoration: none;
 }
@@ -224,6 +226,7 @@ ul.arrow-bullets  {
 	width: 100%;
     border-spacing: 5px;
     border-collapse: separate;
+	margin-left: -5px;
 	/*border: 1px solid #d8d2c5;*/
 }
 

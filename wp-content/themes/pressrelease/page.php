@@ -6,11 +6,19 @@
 				<div class="col-xs-12">	
 
 					<?php 
-						if ( have_posts() ) : while ( have_posts() ) : the_post();
+					
+						if (is_user_logged_in()) {
 
-							get_template_part( 'content', get_post_format() );
+							if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-						endwhile; endif; 
+								get_template_part( 'content', get_post_format() );
+
+							endwhile; endif; 
+
+						} else {
+							echo "<h2>Sorry!</h2> <p>You must be logged in to view site content.</p>";
+						}
+					
 					?>		
 					
 				</div>	

@@ -131,7 +131,7 @@
 	</section> 
 	  
 <?php
-if ( is_user_logged_in() ) {
+if (is_user_logged_in()) {
 ?>	  
 	<nav id="main">		
 		<div class="container">			

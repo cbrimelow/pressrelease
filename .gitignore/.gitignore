@@ -99,3 +99,6 @@ wp-content/themes/twenty*/
 
 # ignore node/grunt dependency directories
 node_modules/
+
+# ignore everything in the "uploads" directory
+wp-content/uploads/
