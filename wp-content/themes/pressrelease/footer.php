@@ -59,6 +59,8 @@
 				cookieExp		: 365
 				
 			});
+			
+			DaySwitcher.init();
 
 		});
 			

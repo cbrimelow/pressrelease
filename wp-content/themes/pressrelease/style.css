@@ -275,3 +275,135 @@ ul.arrow-bullets  {
 body.noScroll {
 	overflow: hidden;
 }
+.twitter {
+	text-align: right;
+}
+#timeline {
+	margin: 40px 0;
+}
+#timeline .day {
+	display: none;
+}
+#timeline .buttons {
+	padding-left: 90px;
+	padding-right: 12px;
+}
+#timeline .buttons .button {
+	background-color: #ffdca2;
+	padding: 24px 0 28px;
+	text-align: center;
+	color: #ee3c2d;
+	margin: 2px;
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: pointer;
+}
+#timeline .buttons .button.current {
+	background-color: #43a3b1;
+	color: #fff;
+}
+#timeline .buttons .button span {
+	display: block;
+}
+#timeline .buttons .button .dayofwk {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+#timeline .buttons .button .date {
+	font-size: 32px;
+}
+#timeline .day.current {
+	display: block;
+}
+#timeline h2 {
+	font-weight: 500;
+	font-size: 24px;
+	color: #007b88;
+	margin: 60px 0 10px;
+	text-transform: uppercase;	
+	padding-left: 76px;
+}
+#timeline .grid {
+	background-image: url(images/timeline-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 90px;
+}
+#timeline .grid .item-container {
+	border: 1px solid #d8d2c4;
+	margin-top: 10px;
+	min-height: 700px;
+}
+#timeline .grid .item {
+	padding: 14px 20px;
+	margin-bottom: 4px;
+	color: #55565a;
+	font-size: 12px;
+	line-height: 18px;
+	overflow: hidden;
+}
+#timeline .sat .grid .item-container .item {
+	background-color: #ffedcf;
+}
+#timeline .sun .grid .item-container .item {
+	background-color: #fcd7c7;
+}
+#timeline .mon .grid .item-container .item {
+	background-color: #daecf0;
+}
+#timeline .tue .grid .item-container .item {
+	background-color: #efecf5;
+}
+#timeline .item.t60m {
+	height: 56px;
+}
+#timeline .item.t90m {
+	height: 86px;
+}
+#timeline .item.t120m {
+	height: 116px;
+}
+#timeline .item.empty {
+	background-color: transparent !important;
+}
+
+#calendar {
+	margin: 40px 0;
+	display: none;
+}
+#calendar .grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	border: 1px solid #d8d2c4;
+	grid-column-gap: 4px;
+	grid-row-gap: 4px;
+
+}
+#calendar .grid-item {
+	padding: 14px 20px;
+	color: #55565a;
+	font-size: 12px;
+	line-height: 18px;
+}
+#calendar .grid-item:nth-child(1n) {
+  background-color: #ffedcf;
+}
+#calendar .grid-item:nth-child(2n) {
+  background-color: #fcd7c7;
+}
+#calendar .grid-item:nth-child(3n) {
+  background-color: #daecf0;
+}
+#calendar .grid-item:nth-child(4n) {
+  background-color: #efecf5;
+}
+
+
+
+
+
+
+
+
+
+

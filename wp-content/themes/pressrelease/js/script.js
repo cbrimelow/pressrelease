@@ -157,3 +157,27 @@ var Popup = (function() {
 	};
 
 })();
+
+var DaySwitcher = (function() {
+	
+	function init() {
+		
+		$('.button').on('click', function() {
+			
+			var day = $(this).data('day');
+			
+			$('.button').removeClass('current');
+			$(this).addClass('current');
+			
+			$('.day').hide();			
+			$('.' + day).show();
+			
+		});
+		
+	}
+	
+	return {
+		init: init
+	};
+
+})();

@@ -2,8 +2,29 @@
 
 	<article id="main">		
 		<div class="container">			
-			<div class="row">			
-				<div class="col-xs-12">	
+			<div class="row">	
+				
+					
+			<?php
+
+			if (!is_page('late-breaking-trials') && !is_page('press-conference-schedule')) {
+
+			?>
+				
+				<div class="col-xs-8">	
+				
+			<?php
+
+			} else {
+
+			?>	
+				<div class="col-xs-12">
+				
+			<?php
+
+			}
+
+			?>	
 
 					<?php 
 					
@@ -19,14 +40,30 @@
 							echo "<h2>Sorry!</h2> <p>You must be logged in to view site content.</p>";
 						}
 					
-					?>		
-					
+					?>	
+			<div class="row">			
+				<div class="col-xs-12 col-md-6 col-md-offset-6 twitter">						
+				
+				</div>
+			</div>					
 				</div>	
-				<!--
+
+					
+			<?php
+
+			if (!is_page('late-breaking-trials') && !is_page('press-conference-schedule')) {
+
+			?>
+				
 				<div class="col-sm-4">
-					Sidebar
+<a class="twitter-timeline" data-width="420" data-height="360" data-theme="light" href="https://twitter.com/ACCmediacenter?ref_src=twsrc%5Etfw">Tweets by ACCmediacenter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div> 
-				-->
+				
+			<?php
+
+			}
+
+			?>				
 			</div>
 		</div>	 	  	  
 	</article>
