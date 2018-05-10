@@ -164,13 +164,17 @@ var DaySwitcher = (function() {
 		
 		$('.button').on('click', function() {
 			
-			var day = $(this).data('day');
+			var day = $(this).data('day'),
+				$targetPanel = $('.' + day);
 			
 			$('.button').removeClass('current');
 			$(this).addClass('current');
+
+			$targetPanel.fadeIn(500, function() {
+				$targetPanel.addClass('current');
+			});
 			
-			$('.day').hide();			
-			$('.' + day).show();
+			$('.day').not($targetPanel).fadeOut(500);			
 			
 		});
 		

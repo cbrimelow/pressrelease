@@ -60,7 +60,13 @@
 				
 			});
 			
-			DaySwitcher.init();
+			DaySwitcher.init({
+				
+				btnClass		: 'button',
+				dayDivClass		: 'day',
+				currClass		: 'current'
+				
+			});
 
 		});
 			

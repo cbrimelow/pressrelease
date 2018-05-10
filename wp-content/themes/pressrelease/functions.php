@@ -21,3 +21,5 @@ function member_check_shortcode( $atts, $content = null ) {
 		return $content;
 	return '';
 }
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );

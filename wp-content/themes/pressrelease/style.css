@@ -281,8 +281,18 @@ body.noScroll {
 #timeline {
 	margin: 40px 0;
 }
+#timeline > .container {
+	min-height: 900px;
+	position: relative;	
+}
 #timeline .day {
 	display: none;
+	position: absolute;
+	top: 120px;
+	left: 0;
+}
+#timeline .day.current {
+	display: block;
 }
 #timeline .buttons {
 	padding-left: 90px;
@@ -297,6 +307,8 @@ body.noScroll {
 	text-transform: uppercase;
 	font-weight: 500;
 	cursor: pointer;
+    -webkit-transition: background-color 1s, color .5s;
+    transition: background-color .5s, color .5s;	
 }
 #timeline .buttons .button.current {
 	background-color: #43a3b1;
@@ -312,10 +324,7 @@ body.noScroll {
 #timeline .buttons .button .date {
 	font-size: 32px;
 }
-#timeline .day.current {
-	display: block;
-}
-#timeline h2 {
+#timeline h4 {
 	font-weight: 500;
 	font-size: 24px;
 	color: #007b88;
