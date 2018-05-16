@@ -20,8 +20,6 @@ $pastelBlue: #daecf0;
 $pastelPurple: #efecf5;
 $darkGray: #55565a;
 
-$default-border-radius: 20px;
-
 
 $xBreak : 320px ;
 $xsBreak : 480px ;
@@ -35,20 +33,18 @@ $font-primary:arial,helvetica, 'san-serif';
 
 
 
-$font-acto:'Acto W00 Regular';
-$font-acto-i:'Acto W00 Italic';
-$font-acto-m:'Acto W00 Medium';
-$font-acto-m-i:'Acto W00 Medium Italic';
-$font-acto-bold:'Acto W00 SemiBold';
-$font-acto-bold-i:'Acto W00 SemiBold Italic';
+$font-gotham: "Gotham SSm A", "Gotham SSm B";
+$font-light: 400;
+$font-regular: 500;
+$font-bold: 700;
 
 
 body {
 	background-color: $white;
 	color: #4d4d4f;
-	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-family: $font-gotham;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: $font-light;
 	line-height: 1.6em;
 	.noScroll {
 		overflow: hidden;
@@ -82,7 +78,7 @@ a {
 	p {
 		display: inline-block;
 		color: $white;
-		font-weight: 700;
+		font-weight: $font-bold;
 		text-transform: uppercase;
 		font-size: 14px;
 		margin: 0 20px 0 0;		
@@ -112,20 +108,21 @@ a {
 		text-transform: uppercase;
 	}
 	.logout {
-		padding: 10px 40px 10px 14px;
+		display: inline-block;
+		padding: 9px 40px 7px 14px;
 		background-color: $red;
 		background-image: url(../images/logout-arrow.png);
-		background-position: 78px 9px;
+		background-position: 78px 10px;
 		background-repeat: no-repeat;	
 		border: 2px solid $white;
 		color: $white;
 		text-transform: uppercase;
 		text-decoration: none;
 		font-size: 12px;
-		font-weight: 400;
+		font-weight: $font-light;
 	}
 	.welcome {
-		font-weight: 400;
+		font-weight: $font-light;
 	}
 }
 #hero {
@@ -190,7 +187,7 @@ a {
 		vertical-align: middle;
 	}
 	h1 {
-		font-weight: 500;
+		font-weight: $font-regular;
 		font-size: 44px;
 		line-height: 1em;
 		text-transform: uppercase;
@@ -241,14 +238,14 @@ article {
 	&#main {
 		padding: 70px 0;
 		h2 {
-			font-weight: 700;
+			font-weight: $font-bold;
 			font-size: 30px;
 			color: $turquoise;
 			margin: 0 0 30px;
 			text-transform: uppercase;
 		}
 		h3 {
-			font-weight: 700;
+			font-weight: $font-bold;
 			font-size: 18px;
 			color: $turquoise;
 			margin: 0 0 6px;
@@ -367,7 +364,7 @@ ul {
 			color: $red;
 			margin: 2px;
 			text-transform: uppercase;
-			font-weight: 500;
+			font-weight: $font-regular;
 			cursor: pointer;
 			-webkit-transition: background-color 1s, color .5s;
 			transition: background-color .5s, color .5s;
@@ -401,7 +398,7 @@ ul {
 		}
 	}
 	h4 {
-		font-weight: 500;
+		font-weight: $font-regular;
 		font-size: 24px;
 		color: $turquoise;
 		margin: 60px 0 10px;
@@ -438,9 +435,10 @@ ul {
 				}
 			}
 			&.all {
-				width: 24%;
+				width: 25%;
 				display: inline-block;
 				vertical-align: top;
+				margin-right: -6px;
 				.item {
 					font-size: 10px;
 					line-height: 15px;
@@ -529,7 +527,19 @@ ul {
 		}
 	}
 }
-
+a.resources-download-btn {
+	background-image: url(../images/btn-download-bg.png);
+	background-repeat: no-repeat;
+	background-position: 448px 10px;
+	display: inline-block;
+	padding: 9px 46px 7px 16px;	
+	border: 2px solid $turquoise;
+	color: $turquoise;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: $font-regular;	
+}
 
 
 

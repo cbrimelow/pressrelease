@@ -1,5 +1,12 @@
 'use strict';
 
+
+/*
+***********************************
+********* Carousel Module *********
+***********************************
+*/
+
 var Carousel = (function() {
 
 	var $carouselID,
@@ -67,6 +74,13 @@ var Carousel = (function() {
 	};
 	
 })();
+
+
+/*
+***********************************
+********** Popup Module ***********
+***********************************
+*/
 
 var Popup = (function() {
 	
@@ -158,23 +172,39 @@ var Popup = (function() {
 
 })();
 
+
+/*
+***********************************
+******* DaySwitcher Module ********
+***********************************
+*/
+
 var DaySwitcher = (function() {
 	
-	function init() {
+	var $btnClass,
+		dayDivClass,
+		currClass
+	;
+	
+	function init(opts) {
 		
-		$('.button').on('click', function() {
+		$btnClass = $('.' + opts.btnClass);
+		dayDivClass = opts.dayDivClass;
+		currClass = opts.currClass;
+		
+		$btnClass.on('click', function() {
 			
-			var day = $(this).data('day'),
+			var day = $(this).data(dayDivClass),
 				$targetPanel = $('.' + day);
 			
-			$('.button').removeClass('current');
-			$(this).addClass('current');
+			$btnClass.removeClass(currClass);
+			$(this).addClass(currClass);
 
 			$targetPanel.fadeIn(500, function() {
-				$targetPanel.addClass('current');
+				$targetPanel.addClass(currClass);
 			});
 			
-			$('.day').not($targetPanel).fadeOut(500);			
+			$('.' + dayDivClass).not($targetPanel).fadeOut(500);			
 			
 		});
 		

@@ -3,13 +3,13 @@
 show_admin_bar(false);
 
 function auto_redirect_external_after_logout(){
-  wp_redirect( 'http://tctpressrelease.test/' );
+  wp_redirect( '/' );
   exit();
 }
 add_action( 'wp_logout', 'auto_redirect_external_after_logout');
 
 function auto_redirect_external_after_login(){
-  wp_redirect( 'http://tctpressrelease.test/' );
+  wp_redirect( '/' );
   exit();
 }
 add_action( 'wp_login', 'auto_redirect_external_after_login');

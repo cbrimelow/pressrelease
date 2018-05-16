@@ -69,7 +69,7 @@
 				
 			  <?php
 	
-				if ($this->field->name != "press_release" && $this->field->name != "press_slides" && $this->field->name != "bio" && $this->field->name != "headshots") {
+				if ($this->field->name != "press_release" && $this->field->name != "press_slides" && $this->field->name != "bio" && $this->field->name != "headshot") {
 					echo "<td>";
 				} 
 	

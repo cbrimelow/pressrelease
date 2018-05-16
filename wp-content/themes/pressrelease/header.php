@@ -44,7 +44,7 @@
 	} else {
 ?>
 					<p>Media Login <img class="padlock" src="<?php echo get_bloginfo('template_directory'); ?>/images/padlock.png" /></p>
-					<form action="http://tctpressrelease.test/wp-login.php" method="post">
+					<form action="/wp-login.php" method="post">
 						<input type="text" name="log" id="user_login" placeholder="Username" />
 						<input type="password" name="pwd" id="user_pass" placeholder="Password" />
 						<input type="submit" id="wp-submit" value="Go" />
@@ -61,7 +61,9 @@
 		<div class="container">			
 			<div class="row">			
 				<div class="col-xs-12">
-					<img class="logo-main" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo-main.png" />
+					<a href="/home">
+						<img class="logo-main" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo-main.png" />
+					</a>
 				</div>				
 			</div>
 		</div>		

@@ -63,7 +63,7 @@
 			DaySwitcher.init({
 				
 				btnClass		: 'button',
-				dayDivClass		: 'day',
+				dayDivClass		: 'day', //Make sure this is consistent with data attribute
 				currClass		: 'current'
 				
 			});
