@@ -209,25 +209,53 @@ nav {
 		li {
 			list-style: none;
 			display: inline-block;
+			position: relative;
+			-webkit-transition: background-color .5s;
+			transition: background-color .5s;			
+			//border-bottom: 5px solid $turquoise;
+
 			a {
 				font-size: 13px;
 				text-transform: uppercase;
 				color: $white;
-				padding: 18px 20px 14px;
-				border-bottom: 5px solid $turquoise;
+				padding: 18px 20px 16px;
 				display: block;
-				text-decoration: none;
-				-webkit-transition: border 1s;
-				transition: border .5s;	
-				&:hover{
-					border-bottom: 5px solid $lightBlue;
-					text-decoration: none;
-				}				
+				text-decoration: none;					
+			}
+			&:hover{
+				background-color: $lightBlue;
 			}
 			&.current_page_item {
-				a {
-					border-bottom: 5px solid $lightBlue;
-					text-decoration: none;
+				& > {
+					a {
+						//border-bottom: 5px solid $lightBlue;
+						background-image: url(../images/nav-link-bg.png);
+						background-repeat: repeat-x;
+						background-position: bottom left;
+						text-decoration: none;
+					}
+				}
+			}
+			ul {
+				opacity: 0;
+				visibility: hidden;
+				position: absolute;
+				top: 54px;
+				background-color: #64aeb7;
+				z-index: 999;
+				-webkit-transition: visibility 0s, opacity 0.5s linear;
+				transition: visibility 0s, opacity 0.5s linear;
+				li {
+					a {
+						color: $white;
+						width: 280px;
+					}
+				}
+			}
+			&:hover{
+				ul {
+					visibility: visible;
+					opacity: 1;
 				}
 			}
 		}
