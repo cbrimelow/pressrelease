@@ -35,17 +35,17 @@ function member_check_shortcode( $atts, $content = null ) {
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 
-/**
- * Function for redirecting users on login based on user role
+/*
+	Redirect users on login based on user role
 
-function my_login_redirect( $url, $request, $user ){
-    if( $user && is_object( $user ) && is_a( $user, 'WP_User' ) ) {
-        if( $user->has_cap( 'administrator' ) ) {
-            $url = admin_url();
-        } else {
-            $url = home_url('/members-only/');
-        }
-    }
-    return $url;
-}
- */
+	function my_login_redirect( $url, $request, $user ){
+		if( $user && is_object( $user ) && is_a( $user, 'WP_User' ) ) {
+			if( $user->has_cap( 'administrator' ) ) {
+				$url = admin_url();
+			} else {
+				$url = home_url('/members-only/');
+			}
+		}
+		return $url;
+	}
+*/

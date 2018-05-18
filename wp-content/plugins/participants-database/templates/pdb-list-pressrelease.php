@@ -65,29 +65,22 @@
       <tbody>
       <?php while ( $this->have_records() ) : $this->the_record(); // each record is one row ?>
         <tr>
+			<td>
           <?php while( $this->have_fields() ) : $this->the_field(); // each field is one cell ?>
-				
-			  <?php
-	
-				if ($this->field->name != "press_release" && $this->field->name != "press_slides" && $this->field->name != "bio" && $this->field->name != "headshot") {
-					echo "<td>";
-				} 
-	
-			  ?>
 
-              <?php $this->field->print_value() ?>
+				
+              	<?php $this->field->print_value() ?>
 				
 			  <?php
 	
-				if ($this->field->name == "abstract" or $this->field->name == "press_release" or $this->field->name == "press_slides" or $this->field->name == "bio") {
-					echo "";
-				} else {
-					echo "</td>";
+				if ($this->field->group == "main") {
+					echo "</td><td>";
 				}
 	
 			  ?>
 
         <?php endwhile; // each field ?>
+			</td>
         </tr>
       <?php endwhile; // each record ?>
       </tbody>
@@ -96,7 +89,7 @@
 
       <tbody>
         <tr>
-          <td><?php if ($this->is_search_result)  echo Participants_Db::$plugin_options['no_records_message'] ?></td>
+          <td><?php echo Participants_Db::$plugin_options['no_records_message'] ?></td>
         </tr>
       </tbody>
 
