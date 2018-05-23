@@ -56,7 +56,8 @@
 				acceptClass		: 'accept',
 				declineClass	: 'decline',
 				cookieName		: 'PR-Agree',
-				cookieExp		: 365
+				cookieExp		: 365,
+				alertText		: 'You will not be able to use this website unless you agree to these terms.'
 				
 			});
 			

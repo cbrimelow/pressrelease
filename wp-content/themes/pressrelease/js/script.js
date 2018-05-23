@@ -89,19 +89,17 @@ var Popup = (function() {
 		$acceptBtn,
 		$declineBtn,
 		cookieName,
-		cookieExp
+		cookieExp,
+		alertText
 	;
 	
 	function setAgreeCookie(name, value, days) {
 		
-		if (days) {
-			
+		if (days) {			
 			var date = new Date(),
-				expires;
-			
+				expires;			
 			date.setTime(date.getTime()+(days * 24 * 60 * 60 * 1000));
-			expires = '; expires=' + date.toGMTString();
-			
+			expires = '; expires=' + date.toGMTString();			
 		} else {			
 			var expires = '';			
 		}
@@ -115,15 +113,12 @@ var Popup = (function() {
 		var nameEQ = name + '=',
 			ca = document.cookie.split(';');
 		
-		for (var i = 0; i < ca.length; i++) {
-			
+		for (var i = 0; i < ca.length; i++) {			
 			var c = ca[i];			
-			while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-			
+			while (c.charAt(0) == ' ') c = c.substring(1, c.length);			
 			if (c.indexOf(nameEQ) == 0) {				
 				return c.substring(nameEQ.length, c.length);				
-			}
-			
+			}			
 		}
 		
 		return null;
@@ -138,6 +133,7 @@ var Popup = (function() {
 		$declineBtn = $popupID.find('.' + opts.declineClass);
 		cookieName = opts.cookieName;
 		cookieExp = opts.cookieExp;
+		alertText = opts.alertText;
 		
 		if (!checkAgreeCookie(cookieName)) {
 		   		
@@ -148,18 +144,14 @@ var Popup = (function() {
 			$('body').addClass('noScroll');
 
 			$acceptBtn.on('click', function() {
-
 				$popupID.fadeOut(1000);
 				$backgroundID.fadeOut(1000);
 				$('body').removeClass('noScroll');
 				setAgreeCookie(cookieName, 'yes', cookieExp);
-
 			});
 
 			$declineBtn.on('click', function() {
-
-				alert('You will not be able to use this website unless you agree to these terms.');
-
+				alert(alertText);
 			});
 			
 		}
