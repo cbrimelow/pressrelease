@@ -68,6 +68,13 @@
 				currClass		: 'current'
 				
 			});
+			
+			MobileNav.init({
+				
+				hamClass		: 'hamburglar',
+				closeClass		: 'closearrow'
+				
+			});
 
 		});
 			

@@ -207,3 +207,51 @@ var DaySwitcher = (function() {
 	};
 
 })();
+
+/*
+***********************************
+******** MobileNav Module *********
+***********************************
+*/
+
+var MobileNav = (function() {
+	
+	var hamClass,
+		closeClass,
+		$theNav = $('nav#main')
+	;
+	
+	function init(opts) {
+		
+		hamClass = opts.hamClass;
+		closeClass = opts.closeClass;
+		
+		$('.' + hamClass).on('click', function() {
+
+			$theNav.css('right', '0px');	
+
+		});
+		
+		$('.' + closeClass).on('click', function() {
+
+			$theNav.css('right', '-100%');
+
+		});
+		
+	}
+	
+	return {
+		init: init
+	};
+
+})();
+
+
+
+
+
+
+
+
+
+

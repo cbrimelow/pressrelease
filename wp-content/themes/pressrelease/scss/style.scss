@@ -72,6 +72,13 @@ a {
 	background-color: $red;
 	padding: 16px 0;
 	text-align: right;
+	.nav-toggle {
+		text-align: left;
+		padding-top: 10px;
+		.hamburglar {
+			cursor: pointer;
+		}
+	}
 	p {
 		display: inline-block;
 		color: $white;
@@ -227,6 +234,9 @@ nav {
 						background-repeat: repeat-x;
 						background-position: bottom left;
 						text-decoration: none;
+						@media only screen and (max-width: $smBreak) {
+							background-image: none;
+						}
 					}
 				}
 			}
@@ -244,6 +254,16 @@ nav {
 						color: $white;
 						width: 280px;
 					}
+					@media only screen and (max-width: $smBreak) {
+						border: 0;
+					}
+				}
+				@media only screen and (max-width: $smBreak) {
+					opacity: 1;
+					visibility: visible;
+					background-color: $turquoise;
+					position: static;
+					margin-left: 20px;
 				}
 			}
 			&:hover{
@@ -252,8 +272,28 @@ nav {
 					opacity: 1;
 				}
 			}
+			@media only screen and (max-width: $smBreak) {
+				display: block;
+				border-bottom: 1px solid #64aeb7;
+			}
+		}
+		@media only screen and (max-width: $smBreak) {
+			position: absolute;
+			top: 0;
+			right: -100%;
+			z-index: 1000;
+			-webkit-transition: right 0.5s linear;
+			transition: right 0.5s linear;
 		}
 	}	
+	.closearrow {
+		margin-top: 60px;
+		margin-right: 10px;
+		text-align: right;
+		img {
+			cursor: pointer;
+		}
+	}
 }
 
 article {

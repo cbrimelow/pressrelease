@@ -30,8 +30,13 @@
 	  
 	<section id="login-top">
 		<div class="container">			
-			<div class="row">			
-				<div class="col-xs-12">
+			<div class="row">
+				<div class="col-xs-2 nav-toggle">
+					<img class="hamburglar visible-xs" src="<?php echo get_bloginfo('template_directory'); ?>/images/hamburglar.png" />
+				</div>
+				<div class="col-xs-10">
+
+					
 <?php
 	global $current_user;
 	get_currentuserinfo();
@@ -138,7 +143,10 @@ if (is_user_logged_in()) {
 	<nav id="main">		
 		<div class="container">			
 			<div class="row">			
-				<div class="col-xs-12">	 					
+				<div class="col-xs-12">	
+					<div class="closearrow visible-xs">
+						<img src="<?php echo get_bloginfo('template_directory'); ?>/images/closearrow.png" />
+					</div>
 					<ul>					
 						<?php wp_list_pages( '&title_li=' ); ?>
 					</ul>

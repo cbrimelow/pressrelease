@@ -7,7 +7,7 @@
 					
 			<?php
 
-			if (!is_page('late-breaking-trials') && !is_page('press-conference-schedule')) {
+			if (is_page('resources') || is_page('contacts') || is_page('home')) {
 
 			?>
 				
@@ -51,7 +51,7 @@
 					
 			<?php
 
-			if (!is_page('late-breaking-trials') && !is_page('press-conference-schedule')) {
+			if (is_page('resources') || is_page('contacts') || is_page('home')) {
 
 			?>
 				
