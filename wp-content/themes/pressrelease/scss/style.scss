@@ -134,6 +134,7 @@ a {
 	background-image: url(../images/hero-1-bg.jpg);
 	background-position: bottom center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	.logo-main {
 		display: block;
 		margin-top: 24px; 
@@ -151,6 +152,7 @@ a {
 		left: 0;
 		background-position: top center;
 		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	#slide-0 {
 		background-image: url(../images/carousel-0-bg.jpg);
@@ -345,6 +347,36 @@ ul {
 	}
 }
 
+.pdb-searchform {
+	margin: 20px 0;
+	legend {
+		margin-bottom: 0;
+		font-size: 14px;
+		text-transform: uppercase;
+    	font-weight: bold;
+		border-bottom: 0;
+	}
+	.radio-group {
+		label {
+			font-weight: normal;
+			font-size: 13px; 
+			input {
+				float: left !important;
+				margin-top: 6px;
+				margin-right: 6px;
+			}
+		}
+	}
+	input[type=submit] {
+		background: #ee3c2d;
+		color: #fff;
+		font-weight: 400;
+		text-transform: uppercase;
+		border: 0;
+		padding: 4px 12px;		
+	}
+}
+
 .wp-list-table {
 	width: 100%;
     border-spacing: 5px;
@@ -468,21 +500,24 @@ ul {
 		padding-left: 76px;
 	}
 	.grid {
-		background-image: url(../images/timeline-bg.jpg);
+		background-image: url(../images/timeline-am-bg.jpg);
 		background-repeat: no-repeat;
 		background-position: top left;
 		padding-left: 90px;
 		.item-container {
 			border: 1px solid $tan;
 			margin-top: 10px;
-			min-height: 700px;
+			min-height: 607px;
 			.item {
-				padding: 14px 20px;
-				margin-bottom: 4px;
+				padding: 8px 20px;
+				margin-bottom: 2px;
 				color: $darkGray;
 				font-size: 11px;
 				line-height: 16px;
 				overflow: hidden;
+				&.trial {
+					height: 28.5px;
+				}				
 				&.t60m {
 					height: 56px;
 				}
@@ -493,6 +528,7 @@ ul {
 					height: 116px;
 				}
 				&.empty {
+					height: 28px;
 					background-color: transparent !important;
 				}
 			}

@@ -41,11 +41,11 @@
 						}
 					
 					?>	
-			<div class="row">			
-				<div class="col-xs-12 col-md-6 col-md-offset-6 twitter">						
-				
-				</div>
-			</div>					
+					<div class="row">			
+						<div class="col-xs-12 col-md-6 col-md-offset-6 twitter">						
+
+						</div>
+					</div>					
 				</div>	
 
 					
@@ -56,7 +56,7 @@
 			?>
 				
 				<div class="col-sm-4">
-<a class="twitter-timeline" data-width="420" data-height="360" data-theme="light" href="https://twitter.com/ACCmediacenter?ref_src=twsrc%5Etfw">Tweets by ACCmediacenter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="420" data-height="420" data-theme="light" href="https://twitter.com/crfheart?ref_src=twsrc%5Etfw">Tweets by ACCmediacenter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div> 
 				
 			<?php
