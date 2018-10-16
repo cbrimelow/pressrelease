@@ -27,7 +27,6 @@ $smBreak : 768px;
 $mdBreak : 992px;
 $lrgBreak : 1200px;
 
-@import url(http://fast.fonts.net/cssapi/cad12321-3944-4265-aee2-fe9a64a52c60.css);
 
 $font-primary:arial,helvetica, 'san-serif'; 
 $font-gotham: 'Gotham SSm A', 'Gotham SSm B';
@@ -89,6 +88,9 @@ a {
 	}
 	form {
 		display: inline-block;
+		@media only screen and (max-width: $smBreak) {
+			text-align: left;
+		}
 	}
 	.padlock {
 		display: inline-block;
@@ -97,12 +99,18 @@ a {
 	#user_login {
 		padding: 10px;
 		border: none;
-		background-color: $white !important;		
+		background-color: $white !important;	
+		@media only screen and (max-width: $smBreak) {
+			margin-bottom: 10px;
+		}
 	}
 	#user_pass {
 		padding: 10px;
 		border: none;
-		background-color: $white !important;		
+		background-color: $white !important;
+		@media only screen and (max-width: $smBreak) {
+			margin-right: 10px;
+		}
 	}
 	#wp-submit {
 		padding: 8px 10px;
@@ -124,6 +132,9 @@ a {
 		text-decoration: none;
 		font-size: 12px;
 		font-weight: $font-light;
+		@media only screen and (max-width: $smBreak) {
+			margin: 10px 8px 0 0;
+		}			
 	}
 	.welcome {
 		font-weight: $font-light;
@@ -198,11 +209,19 @@ a {
 		line-height: 1em;
 		text-transform: uppercase;
 		margin: 0 0 12px;
+		@media only screen and (max-width: $smBreak) {
+			font-size: 28px;
+			line-height: 1.4em;
+		}
 	}
 	p {
 		font-size: 30px;
 		line-height: 1em;
 		margin: 0 0 20px;
+		@media only screen and (max-width: $smBreak) {
+			font-size: 18px;
+			line-height: 1.4em;
+		}		
 	}
 }
 nav {
@@ -280,7 +299,7 @@ nav {
 			}
 		}
 		@media only screen and (max-width: $smBreak) {
-			position: absolute;
+			position: fixed;
 			top: 0;
 			right: -100%;
 			z-index: 1000;
@@ -307,6 +326,10 @@ article {
 			color: $turquoise;
 			margin: 0 0 30px;
 			text-transform: uppercase;
+			@media only screen and (max-width: $smBreak) {
+				font-size: 24px;
+				line-height: 1.4em;
+			}			
 		}
 		h3 {
 			font-weight: $font-bold;
@@ -401,6 +424,13 @@ ul {
 	-moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+	@media only screen and (max-width: $smBreak) {
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		font-size: 12px;
+		
+	}
 	a {
 		display: inline-block;
 		padding: 14px 80px;
@@ -409,6 +439,9 @@ ul {
 		text-decoration: none;
 		font-size: 14px;
 		color: $white;
+		@media only screen and (max-width: $smBreak) {
+			margin: 10px 0 0 0;
+		}
 		&.accept {
 			background-color: $turquoise;
 		}
@@ -472,9 +505,15 @@ ul {
 			.dayofwk {
 				font-size: 14px;
 				margin-bottom: 10px;
+				@media only screen and (max-width: $smBreak) {
+					font-size: 10px;
+				}					
 			}
 			.date {
 				font-size: 32px;
+				@media only screen and (max-width: $smBreak) {
+					font-size: 18px;
+				}				
 			}
 			&.viewAll {
 				position: absolute;
@@ -491,13 +530,17 @@ ul {
 			}
 		}
 	}
-	h4 {
+	h4 { 
 		font-weight: $font-regular;
 		font-size: 24px;
 		color: $turquoise;
 		margin: 60px 0 10px;
 		text-transform: uppercase;	
 		padding-left: 76px;
+		@media only screen and (max-width: $smBreak) {
+			font-size: 14px;
+			margin-top: 20px;
+		}			
 	}
 	.grid {
 		background-image: url(../images/timeline-am-bg.jpg);
@@ -638,7 +681,10 @@ a.resources-download-btn {
 	font-size: 12px;
 	font-weight: $font-regular;	
 }
-
+a.app-btn {
+	display: inline-block;
+    margin: 10px 0;	
+}
 
 
 

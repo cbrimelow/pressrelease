@@ -8,7 +8,7 @@
     <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
     <meta name="author" content="">
 
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php echo get_bloginfo( 'name' ); ?> <?php wp_title(); ?></title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
@@ -31,10 +31,16 @@
 	<section id="login-top">
 		<div class="container">			
 			<div class="row">
-				<div class="col-xs-2 nav-toggle">
+			<?php
+			if (is_user_logged_in()) {
+			?>					
+				<div class="col-xs-12 col-sm-2 nav-toggle">
 					<img class="hamburglar visible-xs" src="<?php echo get_bloginfo('template_directory'); ?>/images/hamburglar.png" />
 				</div>
-				<div class="col-xs-10">
+			<?php
+			}
+			?>				
+				<div class="col-xs-12 col-sm-10">
 
 					
 <?php
@@ -103,7 +109,7 @@
 							<div class="framee">
 								<h1>Enhance Your Stories</h1>
 								<p>on the lastest cardiology research with an infographic</p>
-								<a class="pr-button" href="#">Click Here to Download</a>							
+								<a class="pr-button" href="http://press.tctconference.com/wp-content/uploads/2018/09/Infographic.jpg" target="_blank">Click Here to Download</a>							
 							</div>	
 							<div class="carousel-nav">
 								<span class="dot" data-num="0"></span>

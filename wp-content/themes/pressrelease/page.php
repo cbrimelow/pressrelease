@@ -11,7 +11,7 @@
 
 			?>
 				
-				<div class="col-xs-8">	
+				<div class="col-xs-12 col-sm-8">	
 				
 			<?php
 
@@ -55,7 +55,7 @@
 
 			?>
 				
-				<div class="col-sm-4">
+				<div class="col-xs-12 col-sm-4">
 <a class="twitter-timeline" data-width="420" data-height="420" data-theme="light" href="https://twitter.com/crfheart?ref_src=twsrc%5Etfw">Tweets by ACCmediacenter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div> 
 				
